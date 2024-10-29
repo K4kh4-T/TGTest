@@ -78,7 +78,7 @@
                 }).then((unityInstance) => {
                   loadingCover.style.display = "none";
                   if (canFullscreen) {
-                    if (!hideFullScreenButton) {
+                    if (hideFullScreenButton) {
                       fullscreenButton.style.display = "";
                     }
                     fullscreenButton.onclick = () => {
