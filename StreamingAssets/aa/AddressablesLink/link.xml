@@ -51,6 +51,7 @@
     <type fullname="ShopItemView" preserve="all" />
     <type fullname="SkipFrameAndAddListAsChildren" preserve="all" />
     <type fullname="SocialPanel" preserve="all" />
+    <type fullname="StoreItemObject" preserve="all" />
     <type fullname="StorePanel" preserve="all" />
     <type fullname="TaskManager" preserve="all" />
     <type fullname="TaskView" preserve="all" />
