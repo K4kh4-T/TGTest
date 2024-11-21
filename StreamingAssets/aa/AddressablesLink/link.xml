@@ -49,6 +49,7 @@
     <type fullname="ScrollMenuButton" preserve="all" />
     <type fullname="ShareButton" preserve="all" />
     <type fullname="ShopItemView" preserve="all" />
+    <type fullname="ShopSkinPreview" preserve="all" />
     <type fullname="SkipFrameAndAddListAsChildren" preserve="all" />
     <type fullname="SocialPanel" preserve="all" />
     <type fullname="StoreItemObject" preserve="all" />
@@ -77,6 +78,14 @@
     <type fullname="NakamaServer.PartyTab" preserve="nothing" serialized="true" />
     <type fullname="NakamaServer.PartyView" preserve="nothing" serialized="true" />
     <type fullname="NakamaServer.PartyViewButton" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AssetKits.ParticleImage.ParticleImage" preserve="all" />
+    <type fullname="AssetKits.ParticleImage.ParticleTrailRenderer" preserve="all" />
+    <type fullname="AssetKits.ParticleImage.Burst" preserve="nothing" serialized="true" />
+    <type fullname="AssetKits.ParticleImage.Module" preserve="nothing" serialized="true" />
+    <type fullname="AssetKits.ParticleImage.SeparatedMinMaxCurve" preserve="nothing" serialized="true" />
+    <type fullname="AssetKits.ParticleImage.SpeedRange" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Fusion.Runtime, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Fusion.NetworkEvents" preserve="all" />
@@ -186,6 +195,7 @@
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.RenderTexture" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
@@ -201,6 +211,8 @@
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
     <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystem/MinMaxCurve" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.ParticleSystem/MinMaxGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
