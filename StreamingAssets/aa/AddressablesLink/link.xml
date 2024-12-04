@@ -1,6 +1,9 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="CountryCodeDropdown" preserve="all" />
     <type fullname="CurrencyStoreItem" preserve="all" />
+    <type fullname="CustomShadowText" preserve="all" />
+    <type fullname="DynamicCameraResize" preserve="all" />
     <type fullname="EffectScaleBounce" preserve="all" />
     <type fullname="FixedRotation" preserve="all" />
     <type fullname="FriendsPanel" preserve="all" />
@@ -8,22 +11,57 @@
     <type fullname="FusionMultiplayer.NetworkPlayerBodyPart" preserve="all" />
     <type fullname="FusionMultiplayer.NetworkPlayerHead" preserve="all" />
     <type fullname="FusionMultiplayer.NetworkSettings" preserve="all" />
+    <type fullname="FusionMultiplayer.PlayerDirectionalArrow" preserve="all" />
     <type fullname="FusionMultiplayer.RPCManager" preserve="all" />
     <type fullname="FusionMultiplayer.VfxManager" preserve="all" />
-    <type fullname="HyveSdk.MessageProfanity" preserve="all" />
+    <type fullname="GameMap" preserve="all" />
+    <type fullname="GameoverUi" preserve="all" />
     <type fullname="HyveSdk.Web3LoginUi" preserve="all" />
+    <type fullname="HyveWarsIO.BodypartController" preserve="all" />
+    <type fullname="HyveWarsIO.BoosterButtonController" preserve="all" />
+    <type fullname="HyveWarsIO.BoostersController" preserve="all" />
     <type fullname="HyveWarsIO.BoosterShopItem" preserve="all" />
+    <type fullname="HyveWarsIO.BotController" preserve="all" />
+    <type fullname="HyveWarsIO.BotSensorController" preserve="all" />
+    <type fullname="HyveWarsIO.BotSpawner" preserve="all" />
     <type fullname="HyveWarsIO.ButtonStateController" preserve="all" />
+    <type fullname="HyveWarsIO.CameraController" preserve="all" />
+    <type fullname="HyveWarsIO.CameraShaker" preserve="all" />
+    <type fullname="HyveWarsIO.CollisionChecker" preserve="all" />
+    <type fullname="HyveWarsIO.CrownController" preserve="all" />
+    <type fullname="HyveWarsIO.FoodController" preserve="all" />
+    <type fullname="HyveWarsIO.FoodSpawner" preserve="all" />
+    <type fullname="HyveWarsIO.GameController" preserve="all" />
+    <type fullname="HyveWarsIO.GameoverHandler" preserve="all" />
+    <type fullname="HyveWarsIO.GameplayUi" preserve="all" />
     <type fullname="HyveWarsIO.HelpPanel" preserve="all" />
+    <type fullname="HyveWarsIO.InformationPopup" preserve="all" />
+    <type fullname="HyveWarsIO.IngameBoosterController" preserve="all" />
+    <type fullname="HyveWarsIO.IngameJoystick" preserve="all" />
+    <type fullname="HyveWarsIO.IngameLeaderboardManager" preserve="all" />
+    <type fullname="HyveWarsIO.IntroLoadingController" preserve="all" />
+    <type fullname="HyveWarsIO.ItemsManager" preserve="all" />
+    <type fullname="HyveWarsIO.JoystickPositionController" preserve="all" />
+    <type fullname="HyveWarsIO.ListItem" preserve="all" />
+    <type fullname="HyveWarsIO.LoadingPopup" preserve="all" />
+    <type fullname="HyveWarsIO.MagnetCollisionController" preserve="all" />
     <type fullname="HyveWarsIO.MenuManager" preserve="all" />
     <type fullname="HyveWarsIO.MenuSnakeBodyPart" preserve="all" />
     <type fullname="HyveWarsIO.MenuSnakeHead" preserve="all" />
     <type fullname="HyveWarsIO.MenuSnakesController" preserve="all" />
+    <type fullname="HyveWarsIO.MusicPlayer" preserve="all" />
+    <type fullname="HyveWarsIO.NicknameController" preserve="all" />
+    <type fullname="HyveWarsIO.NicknameGenerator" preserve="all" />
+    <type fullname="HyveWarsIO.PlayerController" preserve="all" />
+    <type fullname="HyveWarsIO.RuntimeUi" preserve="all" />
+    <type fullname="HyveWarsIO.SfxPlayer" preserve="all" />
     <type fullname="HyveWarsIO.ShopItemController" preserve="all" />
     <type fullname="HyveWarsIO.ShopManager" preserve="all" />
-    <type fullname="HyveWarsIO.SkinManager" preserve="all" />
+    <type fullname="HyveWarsIO.SimpleFollow" preserve="all" />
+    <type fullname="HyveWarsIO.SpeedBoostController" preserve="all" />
     <type fullname="HyveWarsIO.WofController" preserve="all" />
     <type fullname="HyveWarsIO.WofItemController" preserve="all" />
+    <type fullname="HyveWarsIO.XpManager" preserve="all" />
     <type fullname="MainPanel" preserve="all" />
     <type fullname="MenuNotificationManager" preserve="all" />
     <type fullname="MenuSettingsPanel" preserve="all" />
@@ -35,6 +73,7 @@
     <type fullname="NakamaServer.InvitesPanel" preserve="all" />
     <type fullname="NakamaServer.LeaderboardUi" preserve="all" />
     <type fullname="NakamaServer.LeaderboardUiItem" preserve="all" />
+    <type fullname="NakamaServer.LeaderboardUiItemPlayer" preserve="all" />
     <type fullname="NakamaServer.LobbyChatUi" preserve="all" />
     <type fullname="NakamaServer.ManageFriendsPanel" preserve="all" />
     <type fullname="NakamaServer.MenuFriendsPanel" preserve="all" />
@@ -56,12 +95,13 @@
     <type fullname="StorePanel" preserve="all" />
     <type fullname="TaskManager" preserve="all" />
     <type fullname="TaskView" preserve="all" />
+    <type fullname="TextureScrolling" preserve="all" />
     <type fullname="ToastNotifications" preserve="all" />
     <type fullname="ToastScript" preserve="all" />
     <type fullname="WalletView" preserve="all" />
+    <type fullname="HyveWarsIO.FoodSkin" preserve="nothing" serialized="true" />
     <type fullname=".PoolInfo" preserve="nothing" serialized="true" />
     <type fullname=".PoolObj" preserve="nothing" serialized="true" />
-    <type fullname="HyveWarsIO.FoodSkin" preserve="nothing" serialized="true" />
     <type fullname=".Reward" preserve="nothing" serialized="true" />
     <type fullname=".TaskWithReward" preserve="nothing" serialized="true" />
     <type fullname="FusionMultiplayer.ClientConfig" preserve="nothing" serialized="true" />
@@ -73,6 +113,7 @@
     <type fullname="FusionMultiplayer.ServerConfig" preserve="nothing" serialized="true" />
     <type fullname="FusionMultiplayer.StandaloneConfigurations" preserve="nothing" serialized="true" />
     <type fullname="HyveWarsIO.MenuSnakeInfo" preserve="nothing" serialized="true" />
+    <type fullname="HyveWarsIO.PopupColors" preserve="nothing" serialized="true" />
     <type fullname="HyveWarsIO.SnakeAnimation" preserve="nothing" serialized="true" />
     <type fullname="HyveWarsIO.WofController/WheelItemData" preserve="nothing" serialized="true" />
     <type fullname="NakamaServer.PartyTab" preserve="nothing" serialized="true" />
@@ -82,10 +123,11 @@
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AssetKits.ParticleImage.ParticleImage" preserve="all" />
     <type fullname="AssetKits.ParticleImage.ParticleTrailRenderer" preserve="all" />
-    <type fullname="AssetKits.ParticleImage.Burst" preserve="nothing" serialized="true" />
+    <type fullname="Crystal.SafeArea" preserve="all" />
     <type fullname="AssetKits.ParticleImage.Module" preserve="nothing" serialized="true" />
     <type fullname="AssetKits.ParticleImage.SeparatedMinMaxCurve" preserve="nothing" serialized="true" />
     <type fullname="AssetKits.ParticleImage.SpeedRange" preserve="nothing" serialized="true" />
+    <type fullname="Crystal.SafeArea/ApplySafeAreaDelegate" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Fusion.Runtime, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Fusion.NetworkEvents" preserve="all" />
@@ -129,7 +171,7 @@
     <type fullname="WalletConnectUnity.UI.WCSnackbar" preserve="all" />
     <type fullname="WalletConnectUnity.UI.WCTabButton" preserve="all" />
     <type fullname="WalletConnectUnity.UI.WCTabsBar" preserve="all" />
-    <type fullname="WebGLSupport.WebGLInput" preserve="all" />
+    <type fullname="WebGLSupport.WebGLInputMobile" preserve="all" />
     <type fullname="WalletConnectUnity.Core.Utils.SerializableDictionary`2" preserve="nothing" serialized="true" />
     <type fullname="WalletConnectUnity.Modal.ViewType" preserve="nothing" serialized="true" />
     <type fullname="WalletConnectUnity.Modal.Views.ApprovalViewTabsController/ConnectionTypeToTabPageDictionary" preserve="nothing" serialized="true" />
@@ -141,16 +183,6 @@
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
-  </assembly>
-  <assembly fullname="Unity.InputSystem, Version=1.11.1.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
-    <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
-    <type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="all" />
-    <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -189,10 +221,17 @@
     <type fullname="UnityEngine.Animator" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.RenderTexture" preserve="all" />
@@ -202,8 +241,8 @@
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
-    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
@@ -215,13 +254,18 @@
     <type fullname="UnityEngine.ParticleSystem/MinMaxGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.SpriteMask" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
     <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
@@ -242,11 +286,13 @@
     <type fullname="UnityEngine.UI.Toggle" preserve="all" />
     <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
