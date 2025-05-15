@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title>HyveWars</title>
+  <title>My project</title>
   <link rel="shortcut icon" href="TemplateData/favicon.ico" />
   <link rel="stylesheet" href="TemplateData/style.css" />
 </head>
@@ -27,15 +27,15 @@
   <script type="module">
     const hideFullScreenButton = "";
     const buildUrl = "Build";
-    const loaderUrl = buildUrl + "/39c6b57da2cefff00456b13c0eaf5b9c.loader.js";
+    const loaderUrl = buildUrl + "/touch.loader.js";
     const config = {
-      dataUrl: buildUrl + "/4358b399b5f6bdbbbfb2bcc346f73d67.data.unityweb",
-      frameworkUrl: buildUrl + "/b54e488bd55900183ddb1112b37474ea.framework.js.unityweb",
-      codeUrl: buildUrl + "/55323b460d401adbaf8d2cb70a8d697e.wasm.unityweb",
+      dataUrl: buildUrl + "/touch.data",
+      frameworkUrl: buildUrl + "/touch.framework.js",
+      codeUrl: buildUrl + "/touch.wasm",
               streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
-      productName: "HyveWars",
-      productVersion: "1.0.12",
+      productName: "My project",
+      productVersion: "0.1.0",
     };
 
     const container = document.querySelector("#unity-container");
@@ -82,7 +82,7 @@
             fullscreenButton.style.display = "";
           }
           fullscreenButton.onclick = () => {
-            document.makeFullscreen('unity-container');
+            unityInstance.SetFullscreen(1);
           };
         }
       }).catch((message) => {
